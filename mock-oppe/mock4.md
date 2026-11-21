@@ -6,7 +6,7 @@ each customer name as key and number of items as value to the map object. After
 adding all objects to the map, display the shop name which has sold maximum number
 of items as shown in the test cases. Complete the program as specified below:
 
-. Class Shop that has the following members:
+Class Shop that has the following members:
 - String name, int nsold as private instance variable
 - Constructor to initialize the name and nsold
 - Accessor methods to all instance variables

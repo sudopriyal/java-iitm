@@ -3,7 +3,7 @@
 
 Write the Java code as instructed.
 
-. Class Faculty has the following members.
+Class Faculty has the following members.
 - String name, double salary as private instance variables
 - Constructor to initialize the instance variables
 - Method public double bonus(float percent) that returns the bonus com-
@@ -12,7 +12,7 @@ puted as (percent/100.0)*salary
 Faculty
 - You should overload method getDetails() as getDetails(float percent)
 to display the name, salary and bonus of an Faculty
-. Class Hod extends class Faculty and has the following members.
+Class Hod extends class Faculty and has the following members.
 - String personalAssistant as private instance variable
 - Constructor to initialize the instance variables of Hod that includes the instance
 variables of Faculty
@@ -22,7 +22,7 @@ turns the bonus of a Hod as 50 percent less bonus than a regular faculty
 personalAssistant of Hod.
 - You should override method getDetails(float percent) to display the name,
 salary, personalAssistant and bonus of a Hod
-. Class InheritanceTest has the main method and the following functionality.
+Class InheritanceTest has the main method and the following functionality.
 - It creates objects of Faculty and Hod types, and also accepts the required input
 values.
 - Invokes methods getDetails() and getDetails(float percent) on Faculty

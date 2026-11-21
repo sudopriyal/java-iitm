@@ -3,15 +3,15 @@
 
 Write Java code as instructed.
 
-. Define an interface Appraisable that has the following members:
+Define an interface Appraisable that has the following members:
 - Default method default void appraisal(Teacher t) that increments the
 salary of an Employee by (stuPassPer/100)*5000.
 - Abstract method public abstract void checkAndUpdateSalary()
-. Define an interface SpecialAppraisable that extends Appraisable and has the
+Define an interface SpecialAppraisable that extends Appraisable and has the
 following members:
 - Default method default void spAppraisal(Teacher t) that increments the
 salary of an Employee by (stuPassPer/100)*10000.
-. Class Teacher that implements the interface SpecialAppraisable and has the
+Class Teacher that implements the interface SpecialAppraisable and has the
 following members:
 - String name, double salary and private double stuPassPer as private in-
 stance variables
@@ -27,14 +27,14 @@ lowing functionality.
 from Appraisable interface
 * Else, if stuPassPer>=75 and stuPassPer <= 100 then invoke thespAppraisal()
 method from SpecialAppraisable interface
-. Class InterfaceTest that has the following members:
+Class InterfaceTest that has the following members:
 - You should define method public static void printUpdatedTeachList (Teacher []
 tList) that has the following functionality
 * If stuPassPer>=60 and stuPassPer<75 then invoke the appraisal () method
 from Appraisable interface
 * Else, if stuPassPer>=75 and stuPassPer <= 100 then invoke thespAppraisal()
 method from SpecialAppraisable interface
-. Class InterfaceTest that has the following members:
+Class InterfaceTest that has the following members:
 - You should define method public static void printUpdatedTeachList (Teacher []
 tList) that has the following functionality
 * Iterate over array tList and invoke method checkAndUpdateSalary() on
